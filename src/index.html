@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Electron framework bitcoin price checker</title>
+    <!-- https://electronjs.org/docs/tutorial/security#csp-meta-tag -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="script-src 'self';" /> -->
+    <link rel="stylesheet" href="../assets/css/main.css">
+  </head>
+  <body>
+    <div class="row">
+      <div class="price-container">
+        <p class="subtext">Current BTC USD</p>
+        <h1 id="price">Loading...</h1>
+      </div>
+      <div class="goal-container">
+        <p><img src="../assets/images/up.svg" alt="up"><span id="targetPrice">Choose a target price</span></p>
+      </div>
+      <div class="right-container">
+        <button id="notifyBtn">Notify me when...</button>
+      </div>
+
+      <script src="index.js"></script>
+    </div>
+  </body>
+</html>
